@@ -1,0 +1,148 @@
+{
+  "sample_code\\sample.py": {
+    "internal_issues": [
+      {
+        "type": "docstring",
+        "line": 1,
+        "message": "Module missing docstring",
+        "severity": "info"
+      },
+      {
+        "type": "unused_import",
+        "line": 1,
+        "message": "Imported 'os' but not used",
+        "severity": "warning"
+      },
+      {
+        "type": "unused_import",
+        "line": 2,
+        "message": "Imported 'math' but not used",
+        "severity": "warning"
+      },
+      {
+        "type": "naming",
+        "line": 5,
+        "message": "Function name 'addNumbers' not snake_case",
+        "severity": "warning"
+      },
+      {
+        "type": "docstring",
+        "line": 5,
+        "message": "Function 'addNumbers' missing docstring",
+        "severity": "info"
+      },
+      {
+        "type": "todo",
+        "line": 4,
+        "message": "# TODO: remove before production",
+        "severity": "info"
+      }
+    ],
+    "external_issues": [
+      {
+        "tool": "pylint",
+        "code": "W0511",
+        "type": "warning",
+        "line": 4,
+        "message": "TODO: remove before production",
+        "symbol": "fixme",
+        "severity": "info"
+      },
+      {
+        "tool": "pylint",
+        "code": "C0114",
+        "type": "convention",
+        "line": 1,
+        "message": "Missing module docstring",
+        "symbol": "missing-module-docstring",
+        "severity": "info"
+      },
+      {
+        "tool": "pylint",
+        "code": "C0116",
+        "type": "convention",
+        "line": 5,
+        "message": "Missing function or method docstring",
+        "symbol": "missing-function-docstring",
+        "severity": "info"
+      },
+      {
+        "tool": "pylint",
+        "code": "C0103",
+        "type": "convention",
+        "line": 5,
+        "message": "Function name \"addNumbers\" doesn't conform to snake_case naming style",
+        "symbol": "invalid-name",
+        "severity": "info"
+      },
+      {
+        "tool": "pylint",
+        "code": "C0103",
+        "type": "convention",
+        "line": 5,
+        "message": "Argument name \"a\" doesn't conform to snake_case naming style",
+        "symbol": "invalid-name",
+        "severity": "info"
+      },
+      {
+        "tool": "pylint",
+        "code": "C0103",
+        "type": "convention",
+        "line": 5,
+        "message": "Argument name \"b\" doesn't conform to snake_case naming style",
+        "symbol": "invalid-name",
+        "severity": "info"
+      },
+      {
+        "tool": "pylint",
+        "code": "W0611",
+        "type": "warning",
+        "line": 1,
+        "message": "Unused import os",
+        "symbol": "unused-import",
+        "severity": "info"
+      },
+      {
+        "tool": "pylint",
+        "code": "W0611",
+        "type": "warning",
+        "line": 2,
+        "message": "Unused import math",
+        "symbol": "unused-import",
+        "severity": "info"
+      },
+      {
+        "tool": "flake8",
+        "code": "F401",
+        "line": 1,
+        "col": 1,
+        "message": "'os' imported but unused",
+        "severity": "warning"
+      },
+      {
+        "tool": "flake8",
+        "code": "F401",
+        "line": 2,
+        "col": 1,
+        "message": "'math' imported but unused",
+        "severity": "warning"
+      },
+      {
+        "tool": "flake8",
+        "code": "E302",
+        "line": 5,
+        "col": 1,
+        "message": "expected 2 blank lines, found 1",
+        "severity": "warning"
+      },
+      {
+        "tool": "flake8",
+        "code": "E231",
+        "line": 5,
+        "col": 17,
+        "message": "missing whitespace after ','",
+        "severity": "warning"
+      }
+    ]
+  }
+}
